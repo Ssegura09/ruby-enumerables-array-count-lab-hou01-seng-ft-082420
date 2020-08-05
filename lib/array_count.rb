@@ -3,7 +3,7 @@ require 'pry'
 def count_strings(array)
   binding.pry
   array.count do |element|
-    element.class == String
+    element.class == 'count'
   end
 end
   
